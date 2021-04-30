@@ -1,14 +1,14 @@
-<?php 
+<?php
 
-$server = "localhost";
-$user = "root";
-$pass = "";
-$database = "login_register_pure_coding";
+$serverName = "localhost";
+$dbUser = "u-190080831";
+$dbPass = "zPJYAHd7Cux90K0U";
+$dbName = "user_registration";
 
-$conn = mysqli_connect($server, $user, $pass, $database);
+$conn = mysqli_connect($serverName, $dbUser, $dbPass, $dbName);
 
 if (!$conn) {
-    die("<script>alert('Connection Failed.')</script>");
+    echo("Connection has failed: " . mysqli_connect_error());
 }
 
 ?>
