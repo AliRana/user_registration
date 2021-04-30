@@ -7,6 +7,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/0426f6d354.js" crossorigin="anonymous"></script>
+    </head>
     </head>
 <body>
     <section class="sub-header">
@@ -39,6 +41,9 @@
                 <br>Contact Phone Number: 076908950651
                 <br>Event Contact Email: astonssoc@aston.ac.uk
             </p>
+            <div class="container">
+                <i onclick="Toggle()" id="btn" class="far fa-heart"></i>
+            </div>
             <a href="login.php" class="hero-btn red-btn">BOOK NOW</a>
         </div>
         <div class="about-col">
@@ -64,6 +69,21 @@
     <p>Made with <i class="fa fa-heart-o"></i> from Ali</p>
 </section>
 
+<!----------Javascript for the like button------------->
+<script>
+    var btn = document.getElementById("btn");
+
+    function Toggle(){
+        if (btn.classList.contains("far")){
+             btn.classList.remove("far");
+            btn.classList.add("fas");
+        }else{
+            btn.classList.remove("fas");
+            btn.classList.add("far");
+        }
+    }
+
+</script>
 
     <!--------------JavaScript for Toggle Menu---------------->
 <script>
