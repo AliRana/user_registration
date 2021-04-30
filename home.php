@@ -25,7 +25,7 @@ if(!isset($_SESSION['username'])){
     <h1> Welcome <?php echo $_SESSION['username']; ?> </h1>
 
     </div>
-    <a href="index2.html" class="hero-btn red-btn">Continue to Homepage</a>
+    <a href="index.html" class="hero-btn red-btn">Continue to Homepage</a>
 
 </body>
 
