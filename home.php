@@ -10,7 +10,7 @@ if(!isset($_SESSION['username'])){
 <html>
 <head>
 <title> Home Page </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style_home.css">
         <link rel="stylesheet" type="text/css" 
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -25,6 +25,7 @@ if(!isset($_SESSION['username'])){
     <h1> Welcome <?php echo $_SESSION['username']; ?> </h1>
 
     </div>
+    <a href="index2.html" class="hero-btn red-btn">Continue to Homepage</a>
 
 </body>
 
