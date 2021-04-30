@@ -14,7 +14,7 @@
         <h2> Login Here </h2>
         <form action="validation.php" method="post">
             <div class="form-group">
-                <label>Username</label>
+                <label>Email</label>
                 <input type="text" name="user" class="form-control" required>
                 </div>
         <div class="form-group">
@@ -29,7 +29,7 @@
         <h2> Register Here </h2>
         <form action="registration.php" method="post">
             <div class="form-group">
-                <label>Username</label>
+                <label>Email</label>
                 <input type="text" name="user" class="form-control" required>
                 </div>
         <div class="form-group">
